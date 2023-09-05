@@ -1,0 +1,323 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+/* ===============header style start hear===============  */
+header {
+  width: auto;
+  height: 47.5rem;
+}
+nav {
+  width: auto;
+  height: 4.875rem;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  padding: 1.25rem;
+  display: flex;
+  justify-content: space-around;
+}
+.logo {
+  display: flex;
+}
+.logo h1 {
+  color: #0b0223;
+  font-family: Work Sans;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.logo h1 span {
+  color: #ff42a5;
+}
+div .ul li {
+  list-style: none;
+  display: inline;
+  margin-right: 2rem;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+.flow .ul {
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  width: 278px;
+  padding: 10px;
+}
+.menu .ul li {
+  color: #3c354f;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.youtube {
+  color: #f61c0d;
+}
+#tiktok {
+  color: black;
+}
+/*=================== header section style start ==================== */
+
+.header-body {
+  display: flex;
+}
+
+.header-info {
+  background-image: url(./images/Group\ 14.png);
+  background-repeat: no-repeat;
+  width: 56.313rem;
+  height: 42.6rem;
+}
+
+.infos {
+  margin: 15.5rem 3px 0px 19.813rem;
+}
+.infos h2 {
+  color: #0b0223;
+  font-family: Work Sans;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.h1 {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Work Sans;
+  font-size: 95px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.ul-info li {
+  color: #534c64;
+  margin: 1.25rem 0px;
+  font-family: Work Sans;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: lowercase;
+  list-style: none;
+}
+.fa-circle-play {
+  color: #ff42a5;
+  margin-right: 8px;
+}
+.fa-download {
+  color: #ff42a5;
+  margin-right: 8px;
+}
+.fa-user-group {
+  color: #0b0223;
+  margin-right: 8px;
+}
+.sign {
+  border: none;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  display: inline-flex;
+  padding: 1.313rem 2.5rem;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 3rem;
+  background: var(
+    --Linear,
+    linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%)
+  );
+}
+.go {
+  border: none;
+  display: inline-flex;
+  padding: 1.313rem 2.5rem;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 48px;
+  background: #4ec5f7;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+/* =================main styleing staet on hear=============  */
+/* section 1 style */
+.section-1 {
+  width: auto;
+  height: 37.5rem;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 13.13%,
+    rgba(255, 66, 165, 0.03) 87.94%
+  );
+  display: flex;
+  padding: 5.938rem 15rem;
+}
+.section1-info {
+  text-align: end;
+}
+.section1-info h1 {
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.section1-info p {
+  margin: 24px 0px;
+  width: 520px;
+  color: #534c64;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+.section1-info h3 {
+  color: #534c64;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 45px; /* 187.5% */
+  margin-top: 10px;
+}
+.section1-info h2 {
+  color: #534c64;
+  font-family: Work Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 45px;
+}
+
+/* section 2 style */
+
+.section-2 {
+  padding: 7.5rem 15rem;
+}
+.section-2 h1 {
+  color: #0b0223;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.section-2 h1 span {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.section-2 p {
+  margin-bottom: 3rem;
+  color: #534c64;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+.box-img {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.box-img div h4{
+  color: #534C64;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 150% */
+}
+
+.img3 h4{
+  width: 244px;
+}
+
+
+
+
+
+
+
+
+/* Container for the image and overlay */
+.image-container {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+  
+  /* Style for the overlay */
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 99%;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #f948b2;
+    border-radius: 20px;
+}
+
+/* Style for the Font Awesome icon */
+.icon {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+/* Style for the text */
+.text {
+  color: #fff;
+  font-size: 16px;
+  margin: 0;
+}
+
+/* Hover effect */
+.image-container:hover .overlay {
+  opacity: 1; /* Show the overlay on hover */
+}
