@@ -258,8 +258,8 @@ div .ul li {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
-.box-img div h4{
-  color: #534C64;
+.box-img div h4 {
+  color: #534c64;
   font-family: Work Sans;
   font-size: 20px;
   font-style: normal;
@@ -267,40 +267,32 @@ div .ul li {
   line-height: 30px; /* 150% */
 }
 
-.img3 h4{
+.img3 h4 {
   width: 244px;
 }
-
-
-
-
-
-
-
-
 /* Container for the image and overlay */
 .image-container {
   position: relative;
   display: inline-block;
   overflow: hidden;
 }
-  
-  /* Style for the overlay */
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 99%;
-    background-color: rgba(0, 0, 0, 0.7);
-    opacity: 0; /* Initially hidden */
-    transition: opacity 0.3s;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: 4px solid #f948b2;
-    border-radius: 20px;
+
+/* Style for the overlay */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 99%;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid #f948b2;
+  border-radius: 20px;
 }
 
 /* Style for the Font Awesome icon */
@@ -320,4 +312,260 @@ div .ul li {
 /* Hover effect */
 .image-container:hover .overlay {
   opacity: 1; /* Show the overlay on hover */
+}
+
+/* section 3 and 4 style */
+
+.section-3 {
+  display: flex;
+  justify-content: space-around;
+  margin: 0rem 15rem;
+}
+.div-1 {
+  margin-top: 14rem;
+  text-align: right;
+}
+.h2-1 {
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 125% */
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.h2-1 {
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 125% */
+}
+.div-1 p {
+  width: 363px;
+  color: #534c64;
+  text-align: right;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+.cowboy {
+  position: relative;
+}
+.cat {
+  position: absolute;
+  bottom: -203%;
+  left: 49.438rem;
+  z-index: 1;
+}
+.section-4 {
+  display: flex;
+  justify-content: space-around;
+  margin: 10rem 15rem;
+}
+
+.cat-2 {
+  position: absolute;
+  bottom: -291%;
+  right: 49.438rem;
+  z-index: 1;
+}
+
+/* section 5 style */
+
+.section-5 {
+  display: flex;
+
+  background: linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%);
+}
+.div-3 {
+  margin: 7.5rem 0 15rem 15rem;
+}
+
+.div-3 h1 {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 125% */
+  width: 426px;
+}
+.div-3 > p {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 30px; /* 166.667% */
+  width: 680px;
+  margin: 24px 0 32px 0;
+}
+.li {
+  list-style: none;
+}
+.li p {
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40px; /* 200% */
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+ul li p {
+  text-align: right;
+}
+
+.img {
+  background-image: url(./images/Group\ 15.png);
+  background-repeat: no-repeat;
+  width: 56.313rem;
+  height: 42.6rem;
+}
+
+.btn-main {
+  font-family: Work Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  color: var(--Linear, linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%));
+  border: none;
+  border-radius: 48px;
+  background: #fff;
+  display: inline-flex;
+  padding: 21px 40px;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+/* section 6 style */
+
+.section-6 {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 13.13%,
+    rgba(255, 66, 165, 0.03) 87.94%
+  );
+  padding: 7.5rem 15rem;
+}
+.sec-6 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 38px;
+}
+.sec-6 div {
+  display: flex;
+  border-radius: 50px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+  padding: 5px;
+}
+.sec-6 div p {
+  padding: 22px;
+}
+
+/* --------------footer style start---------- */
+
+footer {
+  background: #0b0223;
+  width: auto;
+  height: 636px;
+}
+.f-logo {
+  display: flex;
+  padding: 7.875rem 52.063rem;
+}
+.f-logo h1 {
+  margin-left: 20px;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.f-logo span {
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+footer ul{
+  padding: 0 33.563rem;
+}
+footer ul li {
+  list-style: none;
+  display: inline;
+  color: #fff;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.lif{
+  margin-right: 60px;
+}
+
+footer ol{
+  padding: 55px 41.563rem;
+}
+footer ol li{
+  list-style: none;
+  display: inline;
+  color: #fff;
+}
+
+footer ol li i {
+  font-size: 30px;
+}
+.fa-twitter{
+  color: #00aace ;
+}
+.fa-facebook{
+  background-color: #17A9FD;
+  border-radius: 30px;
+}
+.fa-youtube{
+
+}
+.fa-linkedin{
+  color: #0a66c2;
+ 
+}
+footer .ulli{
+  padding: 0 37.563rem;
+}
+.uli , h6{
+  color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-right: 40px;
+}
+h6{
+  margin-top: 25px;
 }
