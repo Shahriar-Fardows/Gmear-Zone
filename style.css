@@ -580,31 +580,9 @@ h6{
 
 
 
+/* ===============header style start hear=============== */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ===============header style start hear=============== 
-
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 576px) { 
   nav {
     flex-direction: column;
     width: 100%;
@@ -635,9 +613,7 @@ h6{
   .head-img img {
     width: 100%;
     margin-top: 33%;
-}
   }
-  
   .infos {
     margin: 0;
     text-align: center;
@@ -648,19 +624,19 @@ h6{
     width: 100%;
     height: auto;
   
-}
-main{
-  margin-top: 145%;
-}
-.bodypic-1 img {
-    width: 100%;
-    margin-top: 0%;
-}
+  }
+  main{
+    margin-top: 145%;
+  }
+  .bodypic-1 img {
+      width: 100%;
+      margin-top: 0%;
+  }
 
-.section1-info h1 {
-  width: 100%;
-  margin-top: 60px;
-  text-align: center;
+  .section1-info h1 {
+    width: 100%;
+    margin-top: 60px;
+    text-align: center;
   }
   .section-btn-1 {
     margin-right: 11rem;
@@ -760,4 +736,5 @@ main{
   }
   footer ol {
     padding:3rem 1.5rem;
-  }  */
+  } 
+}
