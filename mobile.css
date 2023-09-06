@@ -124,6 +124,9 @@
   .div-3 > p{
     width: 100%;
   }
+  .section-5 .img{
+    width: 156%;
+  }
   .section-5 .img img{
     width: 61%;
     margin-top: 7rem;
