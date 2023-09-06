@@ -553,9 +553,6 @@ footer ol li i {
   background-color: #17A9FD;
   border-radius: 30px;
 }
-.fa-youtube{
-
-}
 .fa-linkedin{
   color: #0a66c2;
  
@@ -576,3 +573,191 @@ margin-right: 40px;
 h6{
   margin-top: 25px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===============header style start hear=============== 
+
+@media screen and (max-width: 576px) {
+  nav {
+    flex-direction: column;
+    width: 100%;
+    height: 10.938rem;
+    box-shadow: none;
+  }
+  .logo{
+    margin: 155px auto 0 auto;
+  }
+  .menu {
+    flex-direction: column;
+  }
+  .menu .ull li {
+    display: block;
+    margin: 32px;
+  }
+  .header-body {
+    width: 100%;
+    flex-direction: column-reverse;
+    padding: 5%;
+
+  }
+  .header-info {
+    width: 100%;
+    padding-top: 30%;
+  }
+  
+  .head-img img {
+    width: 100%;
+    margin-top: 33%;
+}
+  }
+  
+  .infos {
+    margin: 0;
+    text-align: center;
+  }
+  .section-1 {
+    padding: 0;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  
+}
+main{
+  margin-top: 145%;
+}
+.bodypic-1 img {
+    width: 100%;
+    margin-top: 0%;
+}
+
+.section1-info h1 {
+  width: 100%;
+  margin-top: 60px;
+  text-align: center;
+  }
+  .section-btn-1 {
+    margin-right: 11rem;
+    margin-bottom: 3rem;
+  }
+  .section1-info p,
+  h2 {
+    text-align: center;
+  }
+  .section1-info h3 {
+    text-align: center;
+  }
+   
+  .section-2 {
+    padding: 0;
+    margin: 3rem 3rem 3rem 3rem;
+  }
+  .box-img {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+    margin-left: 5rem;
+  }
+  .box-img div h4 {
+    width: 90%;
+  }
+  
+  .section-3 {
+    flex-direction: column;
+    margin: 4rem;
+  }
+  .div-1,
+  .h2-1 {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .div-1 p {
+    width: 100%;
+    margin: 3rem 0;
+    text-align: center;
+  }
+  .cowboy {
+    width: 100%;
+  }
+  .cat {
+    width: 28%;
+    bottom: -401%;
+    left: 1.438rem;
+  }
+ 
+  .section-4 {
+    margin: 4rem;
+    flex-direction: column-reverse;
+  }
+  .cat-2 {
+    bottom: -480%;
+    right: 1.438rem;
+    width: 28%;
+  }
+  .section-5 {
+    flex-direction: column;
+    width: 100%; 
+    padding: 1rem;
+
+  }
+  .div-3{
+    margin: 0;
+  }
+  .div-3 > p{
+    width: 100%;
+  }
+  .section-5 .img{
+    width: 100%;
+  }
+  .section-5 .img img{
+    width: 100%;
+    margin-top: 7rem;
+  }
+  .section-6{
+    padding: 0;
+    margin: 4rem;
+  }
+  .sec-6{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .f-logo{
+    padding: 139px 9rem 4rem 9rem;
+  }
+  footer ul{
+    padding: 0 4rem;
+  }
+ 
+  footer .ulli{
+    padding: 0rem 5.5rem;
+  }
+  footer ol {
+    padding:3rem 1.5rem;
+  }  */
