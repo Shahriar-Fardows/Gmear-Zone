@@ -590,14 +590,14 @@ h6{
     box-shadow: none;
   }
   .logo{
-    margin: 155px auto 0 auto;
+    margin: 9.688rem auto 0 auto;
   }
   .menu {
     flex-direction: column;
   }
   .menu .ull li {
     display: block;
-    margin: 32px;
+    margin: 2rem;
   }
   .header-body {
     width: 100%;
@@ -635,7 +635,7 @@ h6{
 
   .section1-info h1 {
     width: 100%;
-    margin-top: 60px;
+    margin-top: 3.75rem;
     text-align: center;
   }
   .section-btn-1 {
@@ -721,7 +721,7 @@ h6{
   .sec-6{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 1.25rem;
   }
 
   .f-logo{
